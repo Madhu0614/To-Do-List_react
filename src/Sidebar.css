@@ -1,0 +1,56 @@
+.main-layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #1e293b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sidebar-title {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.sidebar-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.sidebar-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.sidebar-nav a {
+  display: block;
+  color: #cbd5e1;
+  padding: 10px 0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.sidebar-nav a:hover {
+  color: #ffffff;
+}
+
+/* Adjust main container */
+.container {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f1f5f9;
+  overflow-y: auto;
+}
